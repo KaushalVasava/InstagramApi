@@ -3,12 +3,14 @@ package com.kaushalvasava.apis.instagramapi.data
 object Images {
     object User {
         val urls = listOf(
-            "https://images.freeimages.com/images/large-previews/d4f/www-1242368.jpg",
+            "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
             "https://vectorportal.com/storage/bD8Fzwwh5EDWD8YJkJfCCQCwQ8pxMUBIQaCbmKaZ.jpg",
             "https://vectorportal.com/storage/anime-avatar.jpg",
             "https://vectorportal.com/storage/aKJ32lYqZ7wSaC2f0NIMZEUh4hhjlVETzKZ3FjyR.jpg",
             "https://vectorportal.com/storage/UxFA72dcdu4df3y1hyEpAUYbpqSecbrhnjck3x77.jpg",
-            "https://vectorportal.com/storage/Eg0cerMrth5t1FDREtUJQr8RmvmXXvA9XEsL7tcH.jpg"
+            "https://vectorportal.com/storage/Eg0cerMrth5t1FDREtUJQr8RmvmXXvA9XEsL7tcH.jpg",
+            "https://cdn.pixabay.com/photo/2023/05/28/03/34/flowers-8022731_1280.jpg",
+            "https://cdn.pixabay.com/photo/2023/07/14/10/50/flower-8126748_1280.jpg",
         )
     }
 

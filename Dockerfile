@@ -10,7 +10,7 @@ ARG KOBWEB_APP_ROOT="site"
 # of space.
 FROM openjdk:20 as export
 
-ENV KOBWEB_CLI_VERSION=0.9.13
+ENV KOBWEB_CLI_VERSION=0.9.12
 ARG KOBWEB_APP_ROOT
 
 # Copy the project code to an arbitrary subdir so we can install stuff in the

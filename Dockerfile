@@ -8,7 +8,7 @@ ARG KOBWEB_APP_ROOT="site"
 # Create an intermediate stage which builds and exports our site. In the
 # final stage, we'll only extract what we need from this stage, saving a lot
 # of space.
-FROM openjdk:11-jdk as export
+FROM openjdk:20 as export
 
 ENV KOBWEB_CLI_VERSION=0.9.12
 ARG KOBWEB_APP_ROOT

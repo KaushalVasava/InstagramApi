@@ -12,7 +12,7 @@ FROM eclipse-temurin:17 as java
 # Create an intermediate stage which builds and exports our site. In the
 # final stage, we'll only extract what we need from this stage, saving a lot
 # of space.
-FROM java as export
+FROM java 
 
 ENV KOBWEB_CLI_VERSION=0.9.13
 ARG KOBWEB_APP_ROOT
